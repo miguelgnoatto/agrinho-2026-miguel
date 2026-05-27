@@ -1,102 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 - Sementes do Bem</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #4ade80, #22c55e);
-            color: #1f2937;
-            line-height: 1.6;
-        }
-        
-        header {
-            background: rgba(0, 0, 0, 0.85);
-            color: white;
-            text-align: center;
-            padding: 3rem 1rem;
-        }
-        
-        h1 {
-            font-size: 3.2rem;
-            margin-bottom: 10px;
-        }
-        
-        h2 {
-            font-size: 1.6rem;
-        }
-        
-        .hero {
-            text-align: center;
-            padding: 4rem 1rem;
-            background: rgba(255,255,255,0.95);
-            margin: 20px;
-            border-radius: 20px;
-        }
-        
-        .cards {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 2rem;
-        }
-        
-        .card {
-            background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            width: 280px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2.5rem;
-            background: rgba(0,0,0,0.85);
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2026 - Sementes do Bem</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 20px; 
+      background: #e8f5e9; 
+      color: #1b5e20;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { color: #2e7d32; text-align: center; }
+    article { 
+      background: white; 
+      padding: 25px; 
+      margin: 25px 0; 
+      border-radius: 12px; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    img { width: 100%; border-radius: 10px; margin: 15px 0; }
+    .data { color: #388e3c; font-size: 0.95em; font-weight: bold; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>🌱 Agrinho 2026</h1>
-        <h2>Sementes do Bem</h2>
-    </header>
+  <div class="container">
+    <h1>🌱 Agrinho 2026 - Sementes do Bem</h1>
+    <p style="text-align:center;">Projeto desenvolvido por <strong>MIGUEL</strong> • Curitiba - Paraná</p>
 
-    <main>
-        <section class="hero">
-            <h3>Bem-vindo ao futuro sustentável do Agro!</h3>
-            <p><strong>Projeto desenvolvido por MIGUEL</strong><br>Curitiba - Paraná</p>
-        </section>
+    <!-- Post 1 - Estrutura tradicional -->
+    <article>
+      <h2>🌾 O Agro no Brasil</h2>
+      <p class="data">27 de Maio de 2026</p>
+      <img src="https://source.unsplash.com/random/800x400/?farm" alt="Plantação">
+      <p>Alimento, emprego e desenvolvimento para o nosso país.</p>
+    </article>
 
-        <section class="cards">
-            <div class="card">
-                <h4>🌾 O Agro</h4>
-                <p>Alimento, emprego e desenvolvimento para o Brasil.</p>
-            </div>
-            <div class="card">
-                <h4>🌍 Sustentabilidade</h4>
-                <p>Produzir hoje sem comprometer o amanhã.</p>
-            </div>
-            <div class="card">
-                <h4>🤝 Campo e Cidade</h4>
-                <p>Juntos somos mais fortes.</p>
-            </div>
-        </section>
-    </main>
+    <!-- Post 2 - Estrutura tradicional -->
+    <article>
+      <h2>🌍 Sustentabilidade</h2>
+      <p class="data">26 de Maio de 2026</p>
+      <img src="https://source.unsplash.com/random/800x400/?nature" alt="Natureza">
+      <p>Produzir hoje sem comprometer o amanhã.</p>
+    </article>
 
-    <footer>
-        <p>Feito com ❤️ para o Agrinho 2026</p>
-    </footer>
+    <!-- NOVO POST - com estrutura alterada (Desafio) -->
+    <article>
+      <img src="https://source.unsplash.com/random/800x400/?planting" alt="Dia de Plantio">
+
+      <div>
+        <h2>🌱 Dia de Plantio Comunitário</h2>
+        <p class="data">27 de Maio de 2026 • Curitiba - PR</p>
+      </div>
+
+      <p>Esse sábado participei de um mutirão de plantio de árvores nativas. Foram mais de 200 mudas plantadas!</p>
+      
+      <p>É incrível ver o campo e a cidade trabalhando juntos por um futuro mais verde. Cada árvore plantada é uma semente de esperança.</p>
+      
+      <p><strong>Próximo evento:</strong> 10 de Junho - Workshop de Agricultura Familiar</p>
+    </article>
+
+  </div>
 </body>
 </html>
